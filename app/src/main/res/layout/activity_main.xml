@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg01"
+    android:layout_centerHorizontal="true">
+
+
+    <Button
+        android:id="@+id/buttonPartyWheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#000"
+        android:text="Party Roulette"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonTruthWheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPartyWheel"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#F44336"
+        android:text="Truth or Dare"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonLoveWheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonTruthWheel"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#FF6767"
+        android:text="Love Roulette"
+        android:textSize="30sp" />
+</RelativeLayout>
