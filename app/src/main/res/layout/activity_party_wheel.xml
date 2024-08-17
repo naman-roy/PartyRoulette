@@ -17,8 +17,7 @@
         app:layout_constraintBottom_toTopOf="@+id/buttonParty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@mipmap/roulette_wheel2_foreground"
-        tools:srcCompat="@mipmap/roulette_wheel2_foreground" />
+        app:srcCompat="@mipmap/roulette_wheel_love_foreground" />
 
     <ImageView
         android:id="@+id/imageView2"
